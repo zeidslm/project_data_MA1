@@ -17,7 +17,7 @@ plt.rcParams.update({"figure.dpi": 110, "font.size": 10})
 # the number of clusters is known for this dataset, but we will pretend that it is not
 N_TRUE = 4
 X, y_true = make_blobs(
-    n_samples=600,
+    n_samples=700,
     centers=N_TRUE,
     cluster_std=0.80,
     center_box=(-8.0, 8.0),
